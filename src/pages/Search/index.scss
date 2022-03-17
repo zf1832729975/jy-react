@@ -1,0 +1,25 @@
+.search {
+  .search-container {
+    max-width: 900px;
+    margin: 30px auto;
+  }
+  .title {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  .card-item {
+    height: 150px;
+    background-color: #e0ddd4;
+    padding: 12px;
+    .card-title {
+      font-size: 16px;
+      em {
+        font-style: normal;
+        font-weight: bold;
+      }
+    }
+    .chart {
+      padding: 12px 0;
+    }
+  }
+}

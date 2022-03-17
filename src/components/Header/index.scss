@@ -1,0 +1,23 @@
+.site-heaer {
+  border-top: 1px solid rgba(0, 0, 0, 0.42);
+  height: 100px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+  .header-inner {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  .logo {
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #333;
+  }
+  .input-box {
+    width: 500px;
+    margin: 0 20px;
+    .MuiInput-root {
+      width: 100%;
+    }
+  }
+}
